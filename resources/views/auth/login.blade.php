@@ -41,6 +41,12 @@
 
                                 <button type="submit" class="contact_button">{{__('Login')}}</button>
 
+                                <div class="text-center mt-4">
+                                    <a class="btn btn-link text-dark" href="{{ route('register') }}">
+                                        {{ __('Sign up') }}
+                                    </a>
+                                </div>
+
                                 @if (Route::has('password.request'))
                                     <div class="text-center mt-4">
                                         <a class="btn btn-link text-dark" href="{{ route('password.request') }}">

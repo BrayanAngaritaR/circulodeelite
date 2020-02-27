@@ -957,3 +957,8 @@ section
     outline: 0;
     box-shadow: none;
 }
+
+.contact_button {
+    width: 100%;
+
+}
